@@ -32,3 +32,11 @@ ou Dockercompose;
 ![image](https://github.com/JuFick/Trabalho_2AWS-Docker/assets/132408071/09b4a3a4-0b85-4817-a126-e8710c41b16b)
 
 ---
+## Passos do Desenvolvimento
+### Network
+- Vá até o serviço de VPC na sua console AWS;
+- No menu esquerdo, clique em **Suas VPCs** e, em seguida, clique em **Criar VPC**;
+- Crie sua VPC.
+- Logo após, acesse o **Gateways da Internet**, e crie seu Internet Gateway. Não se esqueça de associá-lo à VPC criada anteriormente;
+- Depois, acesse as **Sub-redes**. Crie duas sub-redes, uma pública e uma privada, elas precisam estar na mesma zona de disponibilidade;
+- Agora, crie uma **Tabela de Rotas**; 
