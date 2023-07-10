@@ -58,7 +58,7 @@ ou Dockercompose;
 - Crie outo para o Banco de dados:(com origens no security group da instancia e do bastion host)
  ![sg-bancodados](https://github.com/JuFick/Trabalho_2AWS-Docker/assets/132408071/c185bf21-eebd-42fd-aae5-53fce95e3e14)
 
-- Crie mais um para o Bastion Host: (com origem 0.0.0.0/0)
+- Crie mais um para o Bastion Host: (com origem meu IP)
   ![sg-bastion](https://github.com/JuFick/Trabalho_2AWS-Docker/assets/132408071/430f89c2-2edc-42da-b475-027a24b42672)
 ### EFS (Elastic File Sistem)
 - Vá até o serviço de EFS na aws e clique em **Criar Sistema de Arquivos**;
